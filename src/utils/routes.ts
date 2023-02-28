@@ -1,0 +1,9 @@
+export const LOGIN = "/"
+export const DASHBOARD = "/admin";
+export const HOME = `${DASHBOARD}/dashboard`;
+export const USERS = `${DASHBOARD}/users`;
+export const CARDS = `${DASHBOARD}/cards`;
+export const TRANSACTIONS = `${DASHBOARD}/transactions`;
+export const WITHDRAWALS = `${DASHBOARD}/withdrawals`;
+export const DEPOSITS = `${DASHBOARD}/deposits`
+export const VIEW_COMPLIANCE = `${USERS}/:userId/view-compliance`;
